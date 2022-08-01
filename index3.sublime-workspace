@@ -1,1 +1,746 @@
-{}
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"background",
+				"background-image"
+			],
+			[
+				"hea",
+				"header"
+			],
+			[
+				"alig",
+				"align-items"
+			],
+			[
+				"marg",
+				"margin-right"
+			],
+			[
+				"al",
+				"align-items"
+			],
+			[
+				"color",
+				"background-color"
+			],
+			[
+				"blue",
+				"skyblue"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"bu",
+				"button-1"
+			],
+			[
+				"m",
+				"Googlebot-Image"
+			],
+			[
+				"in",
+				"input"
+			],
+			[
+				"ac",
+				"action"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"f",
+				"font"
+			],
+			[
+				"font",
+				"font-display"
+			],
+			[
+				"fo",
+				"font"
+			],
+			[
+				"light",
+				"lightgrey"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"min-",
+				"min-width"
+			],
+			[
+				"box",
+				"box-sizing"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"pad",
+				"padding-bottom"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"li",
+				"lightgray"
+			],
+			[
+				"grey",
+				"lightgrey"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"hei",
+				"height"
+			],
+			[
+				"h",
+				"h1"
+			],
+			[
+				"a",
+				"align-content"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"align-",
+				"align-self"
+			],
+			[
+				"ali",
+				"align-items"
+			],
+			[
+				"st",
+				"style"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "<!DOCTYPE html>\n<html lang=\"en\">\n    <head>\n        <title>Search</title>\n\n        <style type=\"text/css\">\n        \n\n\n        </style>\n\n\n\n    </head>\n    <body>\n\n        <header>\n            <a class=\"advanced\" class=\"active\" href=\"file:///C:/Users/eduar/project0/advanced.html\">Google Advansed Search</a>\n\n            <a class=\"images\" class=\"active\" href=\"file:///C:/Users/eduar/project0/image.html\">Google Reverse Search</a>\n\n            <div id=\"apps-grid\">\n            \n        </div>\n\n        </header>\n\n        <form action=\"https://www.google.com/search\">\n            <input id=\"search-bar\" type=\"text\" name=\"q\">\n            <br>\n            <button id=\"button-1\" type=submit value=\"Google Search\" name=btnK>Google Search</button>\n           <button id=\"button-2\" type=submit name=btnI>I'm feeling lucky</button>\n       </br>\n\n        </form>\n\n        <img src=\"/Images/lupa.png\" alt=\"mic\">\n       \n    </body>\n\n</html>",
+			"file": "index3.html",
+			"file_size": 2789,
+			"file_write_time": 133037942778715575,
+			"redo_stack":
+			[
+				[
+					131,
+					1,
+					"paste",
+					null,
+					"AQAAANoBAAAAAAAA2gEAAAAAAAAcBwAAPD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgMTIyLjM2IDEyMi44OCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMTIyLjM2IDEyMi44OCIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PHN0eWxlIHR5cGU9InRleHQvY3NzIj48IVtDREFUQVsKICAgIC5zdDB7ZmlsbC1ydWxlOmV2ZW5vZGQ7Y2xpcC1ydWxlOmV2ZW5vZGQ7fQpdXT48L3N0eWxlPjxnPjxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik01Ljg1LDBoMjAuMDljMy4yMiwwLDUuODUsMi42Myw1Ljg1LDUuODV2MjAuMDljMCwzLjIyLTIuNjMsNS44NS01Ljg1LDUuODVINS44NUMyLjYzLDMxLjgsMCwyOS4xNiwwLDI1Ljk0IFY1Ljg1QzAsMi42MywyLjYzLDAsNS44NSwwTDUuODUsMHogTTk2LjQyLDkxLjA4aDIwLjA5YzMuMjIsMCw1Ljg2LDIuNjMsNS44Niw1Ljg2djIwLjA5YzAsMy4yMi0yLjYzLDUuODYtNS44Niw1Ljg2SDk2LjQyIGMtMy4yMiwwLTUuODYtMi42My01Ljg2LTUuODZWOTYuOTRDOTAuNTYsOTMuNzIsOTMuMiw5MS4wOCw5Ni40Miw5MS4wOEw5Ni40Miw5MS4wOHogTTUxLjE0LDkxLjA4aDIwLjA5IGMzLjIyLDAsNS44NiwyLjYzLDUuODYsNS44NnYyMC4wOWMwLDMuMjItMi42Myw1Ljg2LTUuODYsNS44Nkg1MS4xNGMtMy4yMiwwLTUuODUtMi42My01Ljg1LTUuODZWOTYuOTQgQzQ1LjI4LDkzLjcyLDQ3LjkyLDkxLjA4LDUxLjE0LDkxLjA4TDUxLjE0LDkxLjA4eiBNNS44NSw5MS4wOGgyMC4wOWMzLjIyLDAsNS44NSwyLjYzLDUuODUsNS44NnYyMC4wOSBjMCwzLjIyLTIuNjMsNS44Ni01Ljg1LDUuODZINS44NWMtMy4yMiwwLTUuODUtMi42My01Ljg1LTUuODZWOTYuOTRDMCw5My43MiwyLjYzLDkxLjA4LDUuODUsOTEuMDhMNS44NSw5MS4wOHogTTk2LjQyLDQ1LjU0IGgyMC4wOWMzLjIyLDAsNS44NiwyLjYzLDUuODYsNS44NnYyMC4wOWMwLDMuMjItMi42Myw1Ljg2LTUuODYsNS44Nkg5Ni40MmMtMy4yMiwwLTUuODYtMi42My01Ljg2LTUuODZWNTEuNCBDOTAuNTYsNDguMTgsOTMuMiw0NS41NCw5Ni40Miw0NS41NEw5Ni40Miw0NS41NHogTTUxLjE0LDQ1LjU0aDIwLjA5YzMuMjIsMCw1Ljg2LDIuNjMsNS44Niw1Ljg2djIwLjA5IGMwLDMuMjItMi42Myw1Ljg2LTUuODYsNS44Nkg1MS4xNGMtMy4yMiwwLTUuODUtMi42My01Ljg1LTUuODZWNTEuNEM0NS4yOCw0OC4xOCw0Ny45Miw0NS41NCw1MS4xNCw0NS41NEw1MS4xNCw0NS41NHogTTUuODUsNDUuNTRoMjAuMDljMy4yMiwwLDUuODUsMi42Myw1Ljg1LDUuODZ2MjAuMDljMCwzLjIyLTIuNjMsNS44Ni01Ljg1LDUuODZINS44NUMyLjYzLDc3LjM0LDAsNzQuNywwLDcxLjQ4VjUxLjQgQzAsNDguMTgsMi42Myw0NS41NCw1Ljg1LDQ1LjU0TDUuODUsNDUuNTR6IE05Ni40MiwwaDIwLjA5YzMuMjIsMCw1Ljg2LDIuNjMsNS44Niw1Ljg1djIwLjA5YzAsMy4yMi0yLjYzLDUuODUtNS44Niw1Ljg1SDk2LjQyIGMtMy4yMiwwLTUuODYtMi42My01Ljg2LTUuODVWNS44NUM5MC41NiwyLjYzLDkzLjIsMCw5Ni40MiwwTDk2LjQyLDB6IE01MS4xNCwwaDIwLjA5YzMuMjIsMCw1Ljg2LDIuNjMsNS44Niw1Ljg1djIwLjA5IGMwLDMuMjItMi42Myw1Ljg1LTUuODYsNS44NUg1MS4xNGMtMy4yMiwwLTUuODUtMi42My01Ljg1LTUuODVWNS44NUM0NS4yOCwyLjYzLDQ3LjkyLDAsNTEuMTQsMEw1MS4xNCwweiIvPjwvZz48L3N2Zz4",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAD2CAAAAAAAAPYIAAAAAAAAAAAAAAAA8L8"
+				]
+			],
+			"settings":
+			{
+				"buffer_size": 927,
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					23,
+					8,
+					"left_delete",
+					null,
+					"CAAAAPIBAAAAAAAA8gEAAAAAAAABAAAAZ/EBAAAAAAAA8QEAAAAAAAABAAAAbvABAAAAAAAA8AEAAAAAAAABAAAAcO8BAAAAAAAA7wEAAAAAAAABAAAALu4BAAAAAAAA7gEAAAAAAAABAAAAZO0BAAAAAAAA7QEAAAAAAAABAAAAaewBAAAAAAAA7AEAAAAAAAABAAAAcusBAAAAAAAA6wEAAAAAAAABAAAAZw",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADzAQAAAAAAAPMBAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					25,
+					1,
+					"insert",
+					{
+						"characters": "spp"
+					},
+					"AwAAAOsBAAAAAAAA7AEAAAAAAAAAAAAA7AEAAAAAAADtAQAAAAAAAAAAAADtAQAAAAAAAO4BAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADrAQAAAAAAAOsBAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					26,
+					3,
+					"left_delete",
+					null,
+					"AwAAAO0BAAAAAAAA7QEAAAAAAAABAAAAcOwBAAAAAAAA7AEAAAAAAAABAAAAcOsBAAAAAAAA6wEAAAAAAAABAAAAcw",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADuAQAAAAAAAO4BAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					27,
+					1,
+					"insert",
+					{
+						"characters": "apps"
+					},
+					"BAAAAOsBAAAAAAAA7AEAAAAAAAAAAAAA7AEAAAAAAADtAQAAAAAAAAAAAADtAQAAAAAAAO4BAAAAAAAAAAAAAO4BAAAAAAAA7wEAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADrAQAAAAAAAOsBAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					28,
+					1,
+					"insert_completion",
+					{
+						"completion": "apps-grid",
+						"format": "text",
+						"keep_prefix": false,
+						"must_insert": false,
+						"trigger": "apps-grid"
+					},
+					"AgAAAOsBAAAAAAAA6wEAAAAAAAAEAAAAYXBwc+sBAAAAAAAA9AEAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADvAQAAAAAAAO8BAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					29,
+					1,
+					"insert",
+					{
+						"characters": ".svg"
+					},
+					"BAAAAPQBAAAAAAAA9QEAAAAAAAAAAAAA9QEAAAAAAAD2AQAAAAAAAAAAAAD2AQAAAAAAAPcBAAAAAAAAAAAAAPcBAAAAAAAA+AEAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAD0AQAAAAAAAPQBAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					49,
+					7,
+					"left_delete",
+					null,
+					"BwAAAOkBAAAAAAAA6QEAAAAAAAABAAAAc+gBAAAAAAAA6AEAAAAAAAABAAAAZecBAAAAAAAA5wEAAAAAAAABAAAAZ+YBAAAAAAAA5gEAAAAAAAABAAAAYeUBAAAAAAAA5QEAAAAAAAABAAAAbeQBAAAAAAAA5AEAAAAAAAABAAAASeMBAAAAAAAA4wEAAAAAAAABAAAALw",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADqAQAAAAAAAOoBAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					50,
+					1,
+					"insert",
+					{
+						"characters": "img"
+					},
+					"AwAAAOMBAAAAAAAA5AEAAAAAAAAAAAAA5AEAAAAAAADlAQAAAAAAAAAAAADlAQAAAAAAAOYBAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADjAQAAAAAAAOMBAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					57,
+					1,
+					"insert",
+					{
+						"characters": "jjnjj"
+					},
+					"BQAAANUDAAAAAAAA1gMAAAAAAAAAAAAA1gMAAAAAAADXAwAAAAAAAAAAAADXAwAAAAAAANgDAAAAAAAAAAAAANgDAAAAAAAA2QMAAAAAAAAAAAAA2QMAAAAAAADaAwAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADVAwAAAAAAANUDAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					60,
+					6,
+					"left_delete",
+					null,
+					"BgAAANkDAAAAAAAA2QMAAAAAAAABAAAAatgDAAAAAAAA2AMAAAAAAAABAAAAatcDAAAAAAAA1wMAAAAAAAABAAAAbtYDAAAAAAAA1gMAAAAAAAABAAAAatUDAAAAAAAA1QMAAAAAAAABAAAAatQDAAAAAAAA1AMAAAAAAAABAAAACg",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADaAwAAAAAAANoDAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					70,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AgAAAHMAAAAAAAAAdAAAAAAAAAAAAAAAdAAAAAAAAAB8AAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABzAAAAAAAAAHMAAAAAAAAAAAAAAACAcEA"
+				],
+				[
+					71,
+					1,
+					"insert",
+					{
+						"characters": "l"
+					},
+					"AQAAAHwAAAAAAAAAfQAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAB8AAAAAAAAAHwAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					72,
+					1,
+					"left_delete",
+					null,
+					"AQAAAHwAAAAAAAAAfAAAAAAAAAABAAAAbA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAB9AAAAAAAAAH0AAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					73,
+					1,
+					"insert",
+					{
+						"characters": ".apps"
+					},
+					"BQAAAHwAAAAAAAAAfQAAAAAAAAAAAAAAfQAAAAAAAAB+AAAAAAAAAAAAAAB+AAAAAAAAAH8AAAAAAAAAAAAAAH8AAAAAAAAAgAAAAAAAAAAAAAAAgAAAAAAAAACBAAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAB8AAAAAAAAAHwAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					74,
+					1,
+					"insert_completion",
+					{
+						"completion": "apps-grid",
+						"format": "text",
+						"keep_prefix": false,
+						"must_insert": false,
+						"trigger": "apps-grid"
+					},
+					"AgAAAH0AAAAAAAAAfQAAAAAAAAAEAAAAYXBwc30AAAAAAAAAhgAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACBAAAAAAAAAIEAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					75,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAIYAAAAAAAAAhwAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACGAAAAAAAAAIYAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					76,
+					1,
+					"insert_snippet",
+					{
+						"contents": "{$0}"
+					},
+					"AQAAAIcAAAAAAAAAiQAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACHAAAAAAAAAIcAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					77,
+					1,
+					"insert",
+					{
+						"characters": "\n\n\n"
+					},
+					"CAAAAIgAAAAAAAAAiQAAAAAAAAAAAAAAiQAAAAAAAACRAAAAAAAAAAAAAACRAAAAAAAAAJIAAAAAAAAAAAAAAJIAAAAAAAAAmgAAAAAAAAAAAAAAiQAAAAAAAACJAAAAAAAAAAgAAAAgICAgICAgIJIAAAAAAAAAkwAAAAAAAAAAAAAAkwAAAAAAAACbAAAAAAAAAAAAAACKAAAAAAAAAIoAAAAAAAAACAAAACAgICAgICAg",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACIAAAAAAAAAIgAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					79,
+					1,
+					"reindent",
+					null,
+					"AQAAAIkAAAAAAAAAlQAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACJAAAAAAAAAIkAAAAAAAAAAAAAAACAUEA"
+				],
+				[
+					80,
+					1,
+					"insert",
+					{
+						"characters": "back"
+					},
+					"BAAAAJUAAAAAAAAAlgAAAAAAAAAAAAAAlgAAAAAAAACXAAAAAAAAAAAAAACXAAAAAAAAAJgAAAAAAAAAAAAAAJgAAAAAAAAAmQAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACVAAAAAAAAAJUAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					81,
+					1,
+					"insert",
+					{
+						"characters": "go"
+					},
+					"AgAAAJkAAAAAAAAAmgAAAAAAAAAAAAAAmgAAAAAAAACbAAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACZAAAAAAAAAJkAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					82,
+					2,
+					"left_delete",
+					null,
+					"AgAAAJoAAAAAAAAAmgAAAAAAAAABAAAAb5kAAAAAAAAAmQAAAAAAAAABAAAAZw",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACbAAAAAAAAAJsAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					83,
+					1,
+					"insert",
+					{
+						"characters": "ground"
+					},
+					"BgAAAJkAAAAAAAAAmgAAAAAAAAAAAAAAmgAAAAAAAACbAAAAAAAAAAAAAACbAAAAAAAAAJwAAAAAAAAAAAAAAJwAAAAAAAAAnQAAAAAAAAAAAAAAnQAAAAAAAACeAAAAAAAAAAAAAACeAAAAAAAAAJ8AAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACZAAAAAAAAAJkAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					88,
+					1,
+					"insert_completion",
+					{
+						"completion": "background-image: $0;",
+						"format": "snippet",
+						"keep_prefix": false,
+						"must_insert": false,
+						"trigger": "background-image"
+					},
+					"AgAAAJUAAAAAAAAAlQAAAAAAAAAKAAAAYmFja2dyb3VuZJUAAAAAAAAAqAAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACfAAAAAAAAAJ8AAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					89,
+					1,
+					"insert",
+					{
+						"characters": "ur"
+					},
+					"AgAAAKcAAAAAAAAAqAAAAAAAAAAAAAAAqAAAAAAAAACpAAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACnAAAAAAAAAKcAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					90,
+					1,
+					"insert_completion",
+					{
+						"completion": "url($1)",
+						"format": "snippet",
+						"keep_prefix": false,
+						"must_insert": false,
+						"trigger": "url()"
+					},
+					"AgAAAKcAAAAAAAAApwAAAAAAAAACAAAAdXKnAAAAAAAAAKwAAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACpAAAAAAAAAKkAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					91,
+					1,
+					"insert",
+					{
+						"characters": "img/"
+					},
+					"BAAAAKsAAAAAAAAArAAAAAAAAAAAAAAArAAAAAAAAACtAAAAAAAAAAAAAACtAAAAAAAAAK4AAAAAAAAAAAAAAK4AAAAAAAAArwAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACrAAAAAAAAAKsAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					92,
+					1,
+					"insert",
+					{
+						"characters": "apps"
+					},
+					"BAAAAK8AAAAAAAAAsAAAAAAAAAAAAAAAsAAAAAAAAACxAAAAAAAAAAAAAACxAAAAAAAAALIAAAAAAAAAAAAAALIAAAAAAAAAswAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACvAAAAAAAAAK8AAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					93,
+					1,
+					"insert_completion",
+					{
+						"completion": "apps-grid",
+						"format": "text",
+						"keep_prefix": false,
+						"must_insert": false,
+						"trigger": "apps-grid"
+					},
+					"AgAAAK8AAAAAAAAArwAAAAAAAAAEAAAAYXBwc68AAAAAAAAAuAAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACzAAAAAAAAALMAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					94,
+					1,
+					"insert",
+					{
+						"characters": ".svg"
+					},
+					"BAAAALgAAAAAAAAAuQAAAAAAAAAAAAAAuQAAAAAAAAC6AAAAAAAAAAAAAAC6AAAAAAAAALsAAAAAAAAAAAAAALsAAAAAAAAAvAAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAC4AAAAAAAAALgAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					105,
+					1,
+					"paste",
+					null,
+					"AgAAADkCAAAAAAAApAIAAAAAAAAAAAAApAIAAAAAAACkAgAAAAAAABEAAABpbWcvYXBwcy1ncmlkLnN2Zw",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAA5AgAAAAAAAEoCAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					110,
+					1,
+					"left_delete",
+					null,
+					"AQAAAHwAAAAAAAAAfAAAAAAAAABNAAAALmFwcHMtZ3JpZCB7CiAgICAgICAgICAgIGJhY2tncm91bmQtaW1hZ2U6IHVybChpbWcvYXBwcy1ncmlkLnN2Zyk7CgogICAgICAgIH0",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAB8AAAAAAAAAMkAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					120,
+					1,
+					"paste",
+					null,
+					"AgAAAOwBAAAAAAAAYwIAAAAAAAAAAAAAYwIAAAAAAABjAgAAAAAAAGsAAABodHRwczovL2Nkbi5kaXNjb3JkYXBwLmNvbS9hdHRhY2htZW50cy85NTkyMzk3NTQ1Mzk0ODMxNTYvMTAwMzQ2NzI2NTcyMDcxNzMzMi9ncmlkLnBuZz93aWR0aD0zOTImaGVpZ2h0PTM5NA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADsAQAAAAAAAFcCAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					130,
+					1,
+					"left_delete",
+					null,
+					"AgAAAOIBAAAAAAAA4gEAAAAAAACxAAAAPGltZyBzY3I9Imh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9tYXJpYXByb2VuY2EvcHJvamVjdDAvYTI5YmViOWZkMzdiMmFhNWYzOWZkN2I5MzY0MjI2MmZhZDZkY2NmNy9pbWcvYXBwcy1ncmlkLWljb24uc3ZnIiBhbHQ9ImFwcCdzIGdyaWQiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIC8+dAAAAAAAAAB0AAAAAAAAAAgAAAAgICAgICAgIA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADiAQAAAAAAAJMCAAAAAAAAAAAAAAAA8L8"
+				]
+			]
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"git",
+				"Git: Init"
+			],
+			[
+				"git add",
+				"Package Control: Add Repository"
+			],
+			[
+				"git a",
+				"Git: Add All"
+			],
+			[
+				"Git",
+				"Git: Commit history"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"instal packa",
+				"Install Package Control"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/eduar/project0/index.html",
+		"/C/Users/eduar/project0/index3.html",
+		"/C/Users/eduar/project0/index2.html",
+		"/C/Users/eduar/Python/classes.py",
+		"/C/Users/eduar/Python/functios.py",
+		"/C/Users/eduar/Python/squares.py",
+		"/C/Users/eduar/Python/dicts.py",
+		"/C/Users/eduar/Python/loops.py",
+		"/C/Users/eduar/Python/sets.py",
+		"/C/Users/eduar/Python/lists.py",
+		"/C/Users/eduar/Python/hello.py",
+		"/C/Users/eduar/Python/name.py",
+		"/C/Users/eduar/Python/conditions.py",
+		"/C/Users/eduar/Python/sequences.py",
+		"/C/Users/eduar/OneDrive/Documentos/Anotações/CS50 LECTUTES/Projects/hello.py",
+		"/C/Users/eduar/test/hello.html",
+		"/C/Users/eduar/cs50/test.sublime-workspace",
+		"/C/Users/eduar/AppData/Roaming/Sublime Text/Packages/GitMode/GitMode.sublime-settings",
+		"/C/Users/eduar/cs50/cs50/test.html",
+		"/C/Users/eduar/AppData/Roaming/Sublime Text/Packages/User/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			" https://github.com/mariaproenca/project0.git"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index3.html",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 927,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								349,
+								349
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 158.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index3.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
