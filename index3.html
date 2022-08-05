@@ -3,35 +3,55 @@
     <head>
         <title>Search</title>
 
-        <style type="text/css">
-        
-
-
-        </style>
-
+        <link rel="stylesheet" href="index-style.css">
 
 
     </head>
     <body>
 
-        <header>
-            <a class="advanced" class="active" href="file:///C:/Users/eduar/project0/advanced.html">Google Advansed Search</a>
+    <header>
+        <nav>
+           <ul>
+            <div class="nav">
+                <a class="shortcut" href="file:///C:/Users/eduar/project0/advanced.html">Advanced</a>
+                <a class="shortcut" href="file:///C:/Users/eduar/project0/image.html">Images</a>
+                <img id="grid" src="img/apps-grid-icon.svg" width="20px" in-line width="20px" height="20px">
+                <a id="Login" href="https://accounts.google.com/login">Sign In</a>
+            </div>
+            </ul>
+        </nav>
+    </header>
 
-            <a class="images" class="active" href="file:///C:/Users/eduar/project0/image.html">Google Reverse Search</a>
+        <br>
+    
 
-         <img src="img/apps-grid-icon.svg" width="20px" in-line width="20px" height="20px">
+    <section>
 
-        </header>
-
-        <form action="https://www.google.com/search">
-            <input id="search-bar" type="text" name="q">
+        <img id="logo" src="img/google-logo.svg" width="272px" height="97px">
             <br>
+        <form action="https://www.google.com/search">
+
+            <div class="input-bar">
+            <img id="lupa" src="img/lupa.svg" width="20px" height="20px">
+              <input id="search-bar" type="text" name="q">
+              <img class="icons-right" src="img/keyboard.svg" width="30px" height="30px">
+              <img class="icons-right" src="img/mic.svg" width="20px" height="20px">
+            </div>
+
+            <br>
+
+        <div class="buttons">
+
             <button id="button-1" type=submit value="Google Search" name=btnK>Google Search</button>
-           <button id="button-2" type=submit name=btnI>I'm feeling lucky</button>
-       </br>
+
+            <button id="button-2" type=submit name=btnI>I'm feeling lucky</button>
+            </br>
+
+        </div>
 
         </form>
        
+    </section>
     </body>
 
 </html>
